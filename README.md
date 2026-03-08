@@ -4,9 +4,9 @@
 > **📖 [Step-by-Step Project Documentation (Epics 1-7)](./Project_Documentation.md)**
 
 ## Video Demonstration
-*(Once you upload `demo_video.mp4` to your repository, the video will automatically play here!)*
-<video src="https://github.com/nchanakya625/insurance-fraud-detection/raw/main/demo_video.mp4" controls="controls" style="max-width: 100%;">
-</video>
+*(Click below to watch the demonstration)*
+
+https://github.com/nchanakya625/insurance-fraud-detection/blob/main/demo_video.mp4
 
 ---
 
