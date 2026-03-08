@@ -64,10 +64,5 @@ A literature survey for an insurance fraud detection project involves researchin
 
 ### Epic 7: Project Demonstration & Documentation
 
-**Activity 1: Record explanation**
-*(Upload your video demonstration to a platform like YouTube, Google Drive, or Loom, and paste the link below)*
-
-🎥 **Video Link:** [Insert your video platform link here]
-
-**Activity 2: Project Documentation**
+**Activity: Project Documentation**
 This comprehensive document acts as the complete step-by-step project development procedure, fulfilling the deliverables required for the final project submission.
