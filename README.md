@@ -4,9 +4,8 @@
 > **📖 [Step-by-Step Project Documentation (Epics 1-7)](./Project_Documentation.md)**
 
 ## Video Demonstration
-*(Click below to watch the demonstration)*
-
-https://github.com/nchanakya625/insurance-fraud-detection/blob/main/demo_video.mp4
+*(Watch the live web application in action)*
+![Demo Video](demo_video_gif.gif)
 
 ---
 
