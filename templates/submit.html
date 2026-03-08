@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result — Insurance Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container result-page">
+        <header class="header">
+            <div class="logo">🛡️</div>
+            <h1>Prediction Result</h1>
+        </header>
+
+        <div class="result-card {{ 'fraud' if is_fraud else 'genuine' }}">
+            <div class="result-icon">
+                {% if is_fraud %}
+                    🚨
+                {% else %}
+                    ✅
+                {% endif %}
+            </div>
+            <h2 class="result-text">{{ prediction }}</h2>
+            <p class="result-desc">
+                {% if is_fraud %}
+                    This insurance claim has been flagged as <strong>potentially fraudulent</strong>.
+                    Further investigation is recommended.
+                {% else %}
+                    This insurance claim appears to be <strong>genuine</strong>.
+                    No immediate red flags detected.
+                {% endif %}
+            </p>
+        </div>
+
+        <div class="actions">
+            <a href="/" class="btn-back">← Make Another Prediction</a>
+        </div>
+
+        <footer class="footer">
+            <p>Insurance Claims Fraud Detection System &bull; Powered by Machine Learning</p>
+        </footer>
+    </div>
+</body>
+</html>
